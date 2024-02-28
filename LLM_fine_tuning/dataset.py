@@ -6,10 +6,14 @@ import datasets
 logger = datasets.logging.get_logger(__name__)
 
 _DESCRIPTION = """
-Custom Non-Factoid Question Dataset is derived from a specific collection using machine learning techniques. \
-The dataset contains questions along with their corresponding answers. Each question includes various details \
-such as the date, store information, transactions recorded, crude oil price, product category, and specific conditions. \
-The output text indicates the sales quantity for each scenario.
+Custom Question Answer Dataset: This dataset consists of question-answer pairs formatted as JSON. Each example includes an input text representing a non-factoid question and an output text representing the corresponding answer.
+
+The dataset is structured with the following features:
+- id: Unique identifier for each example.
+- input_text: The non-factoid question.
+- output_text: The corresponding answer.
+
+This dataset is intended for training and evaluating models on non-factoid question answering tasks.
 """
 
 class CustomDataset(datasets.GeneratorBasedBuilder):
