@@ -47,7 +47,7 @@ This comprehensive dataset provides an opportunity to explore various factors in
 11. **Submission**: Generate predictions using the trained model and prepare the submission file.
 
 
-## Project Structure for fine-tuning LLM Model FLAN-T5
+## LLM Model FLAN-T5
 
 FLAN-T5 is an open-source, sequence-to-sequence language model developed by Google researchers in late 2022. It is capable of performing various natural language processing tasks and can be used both in research and commercial applications. The model is based on the Transformer architecture and trained on a large corpus of text known as the Colossal Clean Crawled Corpus (C4).
 
@@ -65,4 +65,5 @@ Potential applications of fine-tuned FLAN-T5 include:
 - **Text Classification:** Categorizing text data into predefined classes (e.g., spam or non-spam, positive or negative sentiment).
 
 
-
+## Project Structure for fine-tuning LLM Model FLAN-T5
+[LLM-Fine tuned]([https://huggingface.co/Jyotiyadav/model2.0](https://github.com/jyotiyadav94/StoreSalesPrediction/blob/main/LLM_fine_tuning/LLM_fine_tuningipynb.ipynb)https://github.com/jyotiyadav94/StoreSalesPrediction/blob/main/LLM_fine_tuning/LLM_fine_tuningipynb.ipynb).
