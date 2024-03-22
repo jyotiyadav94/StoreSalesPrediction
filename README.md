@@ -9,8 +9,13 @@ The primary objective of this project is to enhance the Kaggle score for store s
 * Fine-tuning an open-source Large Language Model (LLM) like FLANT-5.
  
 ## Kaggle Submission Results
+![Alt text](<images/Screenshot 2024-03-22 at 21.13.38.png>)
+
+## HuggingFace Demo
 [Link to Kaggle Inference](https://huggingface.co/spaces/Jyotiyadav/Forecasting_model)
 
+##Model 
+[Link to Saved Model](https://huggingface.co/Jyotiyadav/model2.0)
 
 ### File Descriptions and Data Field Information
 Find more information about the dataset [here](https://www.kaggle.com/competitions/store-sales-time-series-forecasting).
